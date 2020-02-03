@@ -1,6 +1,6 @@
 #!/bin/bash -ex\n,
 mkdir -p /home/ubuntu/deployment/configs\n,
-"mkdir -p /home/ubuntu/deployment/scripts\n,
+mkdir -p /home/ubuntu/deployment/scripts\n,
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb\n,
 dpkg -i packages-microsoft-prod.deb\n,
 apt-get update\n,
